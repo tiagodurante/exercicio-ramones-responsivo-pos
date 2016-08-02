@@ -1,0 +1,60 @@
+.center {
+  width: 100%;
+}
+#btnMenu {
+  display: block;
+  float: right;
+  margin: 13px 20px;
+  position: relative;
+}
+#menu {
+  display: none;
+}
+#sobre img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+#inte .coluna {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  float: left;
+}
+#disc .coluna {
+  width: 33.3%;
+}
+#videos .coluna {
+  float: none;
+  width: 80%;
+  margin: 0 auto;
+}
+#banner {
+  padding: 150px 0px;
+}
+header #logo {
+  width: 236px;
+  margin-top: 10px;
+}
+header nav {
+  float: left;
+  width: 100%;
+}
+header a img {
+  width: 100%;
+}
+body {
+  background-repeat: no-repeat;
+}
+nav {
+  position: relative;
+  z-index: 10000;
+}
+nav ul li {
+  width: 100%;
+  float: left;
+  padding: 10px 0px;
+}
+section p {
+  margin: 10px 10px 20px 10px;
+}

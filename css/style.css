@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+/*TAGS*/
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+}
+
+#btnMenu {
+  display: none;
+}
+
+footer {
+  background: #000;
+  padding: 20px 0px;
+}
+
+footer p {
+  text-align: center;
+}
+
+body {
+  background: url(../imagens/3.jpg) center top fixed;
+  background-size: cover;
+}
+
+p {
+  font: 1.2em "Open Sans", Arial, Tahoma;
+  color: #fff;
+  text-align: justify;
+  margin: 30px 0px;
+}
+
+h1 {
+  font: 3em Arvo, Verdana;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  text-align: center;
+}
+
+header {
+  background: rgba(0,0,0,0.8);
+  padding: 10px 0px;
+  width: 100%;
+  float: left;
+  position: fixed;
+  z-index: 1000;
+}
+
+header #logo {
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  font: 1.5em Arvo, Tahoma;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 5px;
+  margin: 15px 5px;
+  float: left;
+  transition: all 0.5s;
+  border: 1px solid transparent;
+}
+
+nav ul li a:hover {
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+section {
+  padding: 100px 0px;
+  overflow: hidden;
+}
+/*CLASSES*/
+.text-center {
+  text-align: center;
+}
+.center{
+  width: 980px;
+  margin: auto;
+}
+/*IDs*/
+#sobre {
+  background: #333;
+}
+
+#sobre img {
+  width: 100%;
+  border: 10px solid #fff;
+  box-shadow: 1px 1px 3px #000;
+}
+
+#banner h1 {
+  margin-bottom: 30px;
+}
+
+#banner {
+  padding: 250px 0px;
+}
+
+#banner a {
+  font: 1.6em Arvo, Verdana;
+  transition: all 0.5s;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#banner a:hover {
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#inte {
+  background: radial-gradient(rgba(0, 0, 0, 0.8), #000);
+}
+
+#inte .coluna {
+  width: 33%;
+  float: left;
+}
+
+#inte p , #disc p, #videos p{
+  text-align: center;
+}
+
+#inte img {
+  border-radius: 100%;
+}
+
+#disc {
+  background: #000;
+}
+
+#disc .coluna {
+  width: 20%;
+  float: left;
+  padding: 5px;
+}
+
+#disc .coluna img, #videos .coluna img{
+  width: 100%;
+}
+
+#videos {
+  background: rgba(255, 0, 0, 0.9);
+}
+
+#videos .coluna {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
